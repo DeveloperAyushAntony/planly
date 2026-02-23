@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "392938553521",
+    "firebase_url": "https://planly-604c5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "planly-604c5",
+    "storage_bucket": "planly-604c5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392938553521:android:6e81e1ca4e2de891b26290",
+        "android_client_info": {
+          "package_name": "com.example.planly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALvq4EAQ7r4u1Y24OMPr1vciwF_3Y9nFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
