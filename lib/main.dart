@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'package:planly/firebase_options.dart';
 
@@ -38,6 +39,9 @@ import "package:planly/core/di/injection_container.dart" as di;
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
+  // Load environment variables from .env asset
+  await dotenv.load(fileName: '.env');
 
   await Hive.initFlutter();
   if (!Hive.isAdapterRegistered(TaskModelAdapter().typeId)) {

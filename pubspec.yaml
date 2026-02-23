@@ -46,6 +46,7 @@ dependencies:
   intl: ^0.20.2
   equatable: ^2.0.7
   get_it: ^8.0.3
+  flutter_dotenv: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -87,6 +88,7 @@ flutter:
 
   assets:
     - assets/images/logo.png
+    - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
